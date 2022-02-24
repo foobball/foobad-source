@@ -1,0 +1,33 @@
+{
+  "name": "foobad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node --inspect=localhost:9222 index",
+    "build": "tsc && npx webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "chalk": "^4.1.2",
+    "console-title": "^1.1.0",
+    "jwt-decode": "^3.1.2",
+    "nexe": "^4.0.0-beta.19",
+    "superagent": "^6.1.0",
+    "systeminformation": "^5.9.17",
+    "user-agents": "^1.0.852"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "debugging-aid": "^0.5.3",
+    "eslint": "^8.1.0",
+    "javascript-obfuscator": "^3.0.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-obfuscator": "^3.5.0"
+  }
+}

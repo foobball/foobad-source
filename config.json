@@ -1,0 +1,34 @@
+{
+    "foobtrade_token": "a",
+    "rolimons_cookies": [
+        "a"
+    ],
+    "roblox_cookies": [
+        "a"
+    ],
+    "stay_online": true,
+    "alert_on_2fa_needed": true,
+    "post_ropro_ads": false,
+    "post_delay": 17,
+    "ping_on_2fa": "<@219541416760705024>",
+    "post_delay_variance": 5,
+    "only_request_tags": false,
+    "use_complete_tag_override": false,
+    "tag_request_percent": 50,
+    "use_any_tag_only_when_needed": false,
+    "tag_override": [
+        "demand"
+    ],
+    "item_give_prioritize": [
+        138761013
+    ],
+    "item_give_blacklist": [
+	    151784526,
+	    124127383
+    ],
+    "item_give_min_amount": 2,
+    "item_give_max_amount": 4,
+    "post_webhook": "https://discord.com/api/webhooks/...",
+    "error_webhook": "https://discord.com/api/webhooks/...",
+    "webhook_color": "#6f32a8"
+}
