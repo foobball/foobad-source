@@ -244,7 +244,7 @@ const tradeAdThread = async (account: Account | RoProProfile, ropro = false, del
                         adBody.request_tags.push(tag);
             } else adBody.request_tags = shuffle(shuffle(shuffle(configCache.tag_override)));
         }
-8
+
         if (ropro) {
             const adPostResponse = await postRoProTradeAd(account.cookie, adBody);
 
