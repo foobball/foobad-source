@@ -22,7 +22,6 @@ export const encrypt = (data, hwid, token) => {
         }
     }
 }
-
 export const decrypt = (data, hwid = null, token = null) => {
     try {
         if (typeof data == 'object')
@@ -33,7 +32,7 @@ export const decrypt = (data, hwid = null, token = null) => {
         if (token) key += token;
 
         return {
-            error: false,
+            error: true,
             data: aes256.decrypt(key, data)
         }
     } catch {
